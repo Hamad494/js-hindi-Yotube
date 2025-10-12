@@ -23,14 +23,36 @@ console.log(typeof(bigNumber));
 // Array, Objects, Functions
 
 const heroes = ["Hammad", "Nadeem", "Amjad"];
-let myObj = {
-      name: hammad,
-      age: 22,
+// let myObj = {
+//       name: hammad,
+//       age: 22,
 
-}
+// }
 
 const myFunction = function() {
     console.log("Hello World");
 }
 
 console.log(typeof(anothertype))
+
+
+///// *************************************8
+
+// stack(paramitives) , Heap(non-paramitives)
+
+let name = "HammadKashmiri494"
+
+let anotherName = name
+anotherName = "HammadMustafa"
+
+// console.log(name);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    easypay: "03179023494"
+}
+
+let userTwo = userOne
+
+userTwo.email= "hammad@google.com"
